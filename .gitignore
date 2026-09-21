@@ -2,3 +2,30 @@ node_modules/
 dist/
 *.log
 *.tsbuildinfo
+
+# Local Netlify folder
+.netlify
+
+# Python 缓存
+__pycache__/
+*.pyc
+
+# IDE 内部目录
+.trae/
+
+# 本地打包的依赖压缩包
+site-package.tar.gz
+
+# 海智航盾双任务算法（474MB）：仅保留后端推理必需的 6 个 LightGBM 模型与实验清单
+/海智航盾双任务算法/*
+!/海智航盾双任务算法/models/
+!/海智航盾双任务算法/results/
+/海智航盾双任务算法/models/*
+!/海智航盾双任务算法/models/T1_classifier_real.joblib
+!/海智航盾双任务算法/models/T1_classifier_mixed.joblib
+!/海智航盾双任务算法/models/T3_classifier_real.joblib
+!/海智航盾双任务算法/models/T3_classifier_mixed.joblib
+!/海智航盾双任务算法/models/T7_classifier_real.joblib
+!/海智航盾双任务算法/models/T7_classifier_mixed.joblib
+/海智航盾双任务算法/results/*
+!/海智航盾双任务算法/results/experiment_manifest.json

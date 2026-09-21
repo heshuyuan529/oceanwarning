@@ -1,0 +1,308 @@
+{
+  "7": {
+    "features_real": [
+      "container",
+      "origin",
+      "destination",
+      "country",
+      "trade",
+      "route",
+      "etd_weekday",
+      "planned_production_lead",
+      "production_observed",
+      "production_age",
+      "production_deviation",
+      "production_pending_overdue",
+      "payment_observed",
+      "payment_age",
+      "procurement_observed",
+      "procurement_age"
+    ],
+    "features_mixed": [
+      "container",
+      "origin",
+      "destination",
+      "country",
+      "trade",
+      "route",
+      "etd_weekday",
+      "planned_production_lead",
+      "production_observed",
+      "production_age",
+      "production_deviation",
+      "production_pending_overdue",
+      "payment_observed",
+      "payment_age",
+      "procurement_observed",
+      "procurement_age",
+      "booking_observed",
+      "booking_age",
+      "allocation_observed",
+      "allocation_age",
+      "so_observed",
+      "so_age",
+      "documents_observed",
+      "documents_age",
+      "pickup_observed",
+      "pickup_age",
+      "return_observed",
+      "return_age",
+      "customs_observed",
+      "customs_age",
+      "gate_observed",
+      "gate_age",
+      "release_observed",
+      "release_age"
+    ],
+    "rows": [
+      {
+        "split": "bn_fit",
+        "orders": 8784,
+        "voyages": 2163,
+        "late_rate": 0.5533925318761385
+      },
+      {
+        "split": "bn_tune",
+        "orders": 11292,
+        "voyages": 2916,
+        "late_rate": 0.4851222104144527
+      },
+      {
+        "split": "calibration",
+        "orders": 9634,
+        "voyages": 2461,
+        "late_rate": 0.5092381150093419
+      },
+      {
+        "split": "purged",
+        "orders": 6968,
+        "voyages": 1715,
+        "late_rate": 0.5632893226176808
+      },
+      {
+        "split": "test",
+        "orders": 19495,
+        "voyages": 5134,
+        "late_rate": 0.4849961528597076
+      },
+      {
+        "split": "train",
+        "orders": 49576,
+        "voyages": 13092,
+        "late_rate": 0.6021663708245926
+      },
+      {
+        "split": "validation",
+        "orders": 9538,
+        "voyages": 2337,
+        "late_rate": 0.48385405745439297
+      }
+    ],
+    "tuning_train": 46417,
+    "priority_mixed_weight": 0
+  },
+  "3": {
+    "features_real": [
+      "container",
+      "origin",
+      "destination",
+      "country",
+      "trade",
+      "route",
+      "etd_weekday",
+      "planned_production_lead",
+      "production_observed",
+      "production_age",
+      "production_deviation",
+      "production_pending_overdue",
+      "payment_observed",
+      "payment_age",
+      "procurement_observed",
+      "procurement_age"
+    ],
+    "features_mixed": [
+      "container",
+      "origin",
+      "destination",
+      "country",
+      "trade",
+      "route",
+      "etd_weekday",
+      "planned_production_lead",
+      "production_observed",
+      "production_age",
+      "production_deviation",
+      "production_pending_overdue",
+      "payment_observed",
+      "payment_age",
+      "procurement_observed",
+      "procurement_age",
+      "booking_observed",
+      "booking_age",
+      "allocation_observed",
+      "allocation_age",
+      "so_observed",
+      "so_age",
+      "documents_observed",
+      "documents_age",
+      "pickup_observed",
+      "pickup_age",
+      "return_observed",
+      "return_age",
+      "customs_observed",
+      "customs_age",
+      "gate_observed",
+      "gate_age",
+      "release_observed",
+      "release_age"
+    ],
+    "rows": [
+      {
+        "split": "bn_fit",
+        "orders": 10254,
+        "voyages": 2458,
+        "late_rate": 0.5671932904232495
+      },
+      {
+        "split": "bn_tune",
+        "orders": 10324,
+        "voyages": 2723,
+        "late_rate": 0.5008717551336691
+      },
+      {
+        "split": "calibration",
+        "orders": 11405,
+        "voyages": 2884,
+        "late_rate": 0.5019728189390618
+      },
+      {
+        "split": "purged",
+        "orders": 2633,
+        "voyages": 670,
+        "late_rate": 0.4827193315609571
+      },
+      {
+        "split": "test",
+        "orders": 21362,
+        "voyages": 5612,
+        "late_rate": 0.4981743282464189
+      },
+      {
+        "split": "train",
+        "orders": 47758,
+        "voyages": 12628,
+        "late_rate": 0.6049457682482516
+      },
+      {
+        "split": "validation",
+        "orders": 11186,
+        "voyages": 2747,
+        "late_rate": 0.4985696406222063
+      }
+    ],
+    "tuning_train": 46281,
+    "priority_mixed_weight": 0.5
+  },
+  "1": {
+    "features_real": [
+      "container",
+      "origin",
+      "destination",
+      "country",
+      "trade",
+      "route",
+      "etd_weekday",
+      "planned_production_lead",
+      "production_observed",
+      "production_age",
+      "production_deviation",
+      "production_pending_overdue",
+      "payment_observed",
+      "payment_age",
+      "procurement_observed",
+      "procurement_age"
+    ],
+    "features_mixed": [
+      "container",
+      "origin",
+      "destination",
+      "country",
+      "trade",
+      "route",
+      "etd_weekday",
+      "planned_production_lead",
+      "production_observed",
+      "production_age",
+      "production_deviation",
+      "production_pending_overdue",
+      "payment_observed",
+      "payment_age",
+      "procurement_observed",
+      "procurement_age",
+      "booking_observed",
+      "booking_age",
+      "allocation_observed",
+      "allocation_age",
+      "so_observed",
+      "so_age",
+      "documents_observed",
+      "documents_age",
+      "pickup_observed",
+      "pickup_age",
+      "return_observed",
+      "return_age",
+      "customs_observed",
+      "customs_age",
+      "gate_observed",
+      "gate_age",
+      "release_observed",
+      "release_age"
+    ],
+    "rows": [
+      {
+        "split": "bn_fit",
+        "orders": 10649,
+        "voyages": 2563,
+        "late_rate": 0.5577049488214856
+      },
+      {
+        "split": "bn_tune",
+        "orders": 9869,
+        "voyages": 2614,
+        "late_rate": 0.5107913669064749
+      },
+      {
+        "split": "calibration",
+        "orders": 11863,
+        "voyages": 2983,
+        "late_rate": 0.5024867234257776
+      },
+      {
+        "split": "purged",
+        "orders": 1147,
+        "voyages": 294,
+        "late_rate": 0.6303400174367916
+      },
+      {
+        "split": "test",
+        "orders": 22099,
+        "voyages": 5788,
+        "late_rate": 0.4959952939047016
+      },
+      {
+        "split": "train",
+        "orders": 47070,
+        "voyages": 12416,
+        "late_rate": 0.6111960909284045
+      },
+      {
+        "split": "validation",
+        "orders": 11664,
+        "voyages": 2871,
+        "late_rate": 0.4885973936899863
+      }
+    ],
+    "tuning_train": 46116,
+    "priority_mixed_weight": 0.5
+  }
+}
